@@ -1,27 +1,17 @@
-Welcome to the Glitch BETA
+Request Header Parser Microservice
 =========================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This is the second 'Build API' challenge from [Free Code Camp](https://www.freecodecamp.org/challenges/request-header-parser-microservice)
 
-**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+In this zipline we need to parse client's request to JSON data that contains:
+- ipaddress: client's public ip address, 
+- language: client's language
+- software: your operating system
 
-Find out more [about Glitch](https://glitch.com/about).
+See App you can **[HERE](https://fanatical-ticket.glitch.me/).**
 
 
-Your Project
+User Story:
 ------------
 
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
+ - I can get the IP address, language and operating system for my browser.
